@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/icons/dantas-logo.webp">
+    <title>Dantas Barbershop: A sua barbearia de escolha em Santarém</title>
+    <meta name="description"
+    content="Cortes modernos na Dantas Barbershop, a sua barbearia de escolha em Santarém.">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="canonical" href="https://dantasbarbershop.com/" />
+    <!-- Meta Open Graph Tags -->
+    <meta property="og:title" content="Dantas Barbershop" />
+    <meta property="og:description" content="Dantas Barbershop, a sua barbearia de escolha em Santarém." />
+    <meta property="og:image" content="https://dantasbarbershop.com/image.jpg" />
+    <meta property="og:image:alt" content="Alt text for image" />
+    <meta property="og:url" content="https://dantasbarbershop.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dantas Barbershop" />
+    <meta property="og:locale" content="pt_PT" />
+    <!-- Twitter Open Graph Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dantas Barbershop - Santarém" />
+    <meta name="twitter:description" content="Dantas Barbershop, a sua barbearia de escolha em Santarém." />
+    <meta name="twitter:image" content="https://example.com/image.jpg" />
+    <meta name="twitter:creator" content="@davidncistudio" />
+    <!-- Insert any CDN's below this comment -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js" ></script>
+</head>
+<body>
+    <!-- ✨ Website Construído por Davidnci Studio ✨ -->
+    <main class="w-full h-full flex-col justify-center items-center text-center">
+        <section id="heroSection" class="w-full h-screen flex-col justify-center items-center">
+            <div class="hero-content w-full h-screen flex-col justify-center items-center gap-10">
+                <div class="hero-heading flex-col gap-5">
+                    <p class="hero-label">Dantas Barbershop</p>
+                    <h1>Onde a Precisão Encontra o Estilo Masculino</h1>
+                </div>
+                <div class="cta-wrapper flex-row justify-center items-center gap-7">
+                    <a class="btn" href="https://noona.pt/dantasbarbershop/book" tabindex="0">Agendar Marcação</a>
+                    <a class="btn" href="#serviceSection" tabindex="0">Lista de Serviços</a>
+                </div>
+                <div class="info-container flex-row justify-center items-center gap-6">
+                    <div class="info-box flex-col items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f5f5f5"><path d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-180q45-45 80-93 30-41 55-90t25-97q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 48 25 97t55 90q35 48 80 93Zm0-220q-25 0-42.5-17.5T420-540q0-25 17.5-42.5T480-600q25 0 42.5 17.5T540-540q0 25-17.5 42.5T480-480Z"/></svg>
+                        <p class="info-text">Santarém, R. dos Bombeiros Voluntários 2 R/C, 2000-205</p>
+                    </div>
+                    <div class="info-box flex-col items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#f5f5f5"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12Z"/></svg>
+                        <p class="info-text">Ou contacte 934 645 482 para Agendar Marcação</p>
+                    </div>
+                </div>
+                <div class="hero-gradient w-full h-screen"></div>
+            </div>
+            <div class="review-container text-left">
+                <div class="review-stats">
+                    <p>+200 Clientes Satisfeitos</p>
+                </div>
+                <div class="review-score flex-row items-center gap-3">
+                    <p>4.9</p>
+                    <img src="./assets/icons/five-stars.png" alt="ícone de cinco estrelas">
+                </div>
+            </div>
+            <div class="bg-lines w-full h-screen flex-row justify-center items-center">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </section>
+        <a class="whatsapp-btn" href="https://wa.me/351934645482" target="_blank">
+            <img src="./assets/images/whatsapp-logo.png" alt="logótipo do whatsapp">
+        </a>
+        <section id="teamSection" class="w-full h-full flex-col items-center">
+            <div class="section-header flex-col justify-center items-center gap-3">
+                <h2>Equipa Dantas</h2>
+                <p class="section-desc">A nossa equipa de barbeiros profissionais é apaixonada por arte e estilo. Cada cabeleireiro é um especialista dedicado a oferecer os melhores cortes masculinos e designs de barba, garantindo um serviço de excelência.</p>
+            </div>
+            <div class="team-grid text-left">
+                <div class="member-card">
+                    <div class="member-info w-full h-auto flex-row justify-between items-center gap-3">
+                        <div class="member-details">
+                            <p class="member-name">Darlan Dantas</p>
+                            <p class="member-skill">Especialista em Estilização</p>
+                        </div>
+                        <a class="instagram-icon" href="https://www.instagram.com/darlandantasof/" target="_blank" aria-label="botão para instagram do darlan">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="35" height="40"><path fill="#FFFFFF" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a>
+                    </div>
+                    <img src="./assets/images/team/darlan-img.jpg" alt="imagem de perfil profissional do darlan">
+                </div>
+                <div class="member-card">
+                    <div class="member-info w-full h-auto flex-row justify-between items-center gap-3">
+                        <div class="member-details">
+                            <p class="member-name">Pedro PV</p>
+                            <p class="member-skill">Especialista em Degradês</p>
+                        </div>
+                        <a class="instagram-icon" href="https://www.instagram.com/pedrohipolito00/" target="_blank" aria-label="botão para instagram do pedro">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="35" height="40"><path fill="#FFFFFF" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a>
+                    </div>
+                    <img src="./assets/images/team/pedro-img.jpg" alt="imagem de perfil profissional do pedro">
+                </div>
+                <div class="member-card">
+                    <div class="member-info w-full h-auto flex-row justify-between items-center gap-3">
+                        <div class="member-details">
+                            <p class="member-name">Arthur Mello</p>
+                            <p class="member-skill">Especialista em Higiene Facial</p>
+                        </div>
+                        <a class="instagram-icon" href="https://www.instagram.com/_mello59/" target="_blank" aria-label="botão para instagram do arthur">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="35" height="40"><path fill="#FFFFFF" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a>
+                    </div>
+                    <img src="./assets/images/team/arthur-img.jpg" alt="imagem de perfil profissional do arthur">
+                </div>
+                <div class="member-card">
+                    <div class="member-info w-full h-auto flex-row justify-between items-center gap-3">
+                        <div class="member-details">
+                            <p class="member-name">Geideson Menezes</p>
+                            <p class="member-skill">Especialista em Coloração</p>
+                        </div>
+                        <a class="instagram-icon" href="https://www.instagram.com/geideson_menezes/" target="_blank" aria-label="botão para instagram do geideson">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="35" height="40"><path fill="#FFFFFF" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a>
+                    </div>
+                    <img src="./assets/images/team/geideson-img.jpg" alt="imagem de perfil profissional do geideson">
+                </div>
+                <div class="member-card">
+                    <div class="member-info w-full h-auto flex-row justify-between items-center gap-3">
+                        <div class="member-details">
+                            <p class="member-name">Tomás Matias</p>
+                            <p class="member-skill">Especialista em Desenhos</p>
+                        </div>
+                        <!-- <a class="instagram-icon" href="https://www.instagram.com/darlandantasof/" target="_blank" aria-label="botão para instagram do tomás">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="35" height="40"><path fill="#FFFFFF" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                        </a> -->
+                    </div>
+                    <img src="./assets/images/team/tomas-img.jpg" alt="imagem de perfil profissional do tomás">
+                </div>
+            </div>
+        </section>
+        <section id="serviceSection" class="w-full h-full text-left">
+            <h2>Serviços</h2>
+            <div class="service-wrapper w-full h-full flex-col gap-6">
+                <div class="service-accordion">
+                    <div 
+                        class="accordion-header w-full flex-row justify-between items-center gap-2" 
+                        tabindex="0" 
+                        role="button" 
+                        aria-expanded="false" 
+                        id="header1">
+                            <h3>Cortes Masculinos</h3>
+                            <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="32px" height="32px" fill="#f5f5f5"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                    </div>
+                    <div class="accordion-content" id="services-1">
+                        <ul class="flex-col gap-6">
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Simples</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Degradê</h4>
+                                        <p>45 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>15,00€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Tesoura</h4>
+                                        <p>45 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>15,00€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Rapado</h4>
+                                        <p>20 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>10,00€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte + Barba</h4>
+                                        <p>60 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>20,00€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte + Barboterapia</h4>
+                                        <p>60 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>23,00€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Barba</h4>
+                                        <p>20 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>10,00€</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>        
+                <div class="service-accordion">
+                    <div 
+                        class="accordion-header w-full flex-row justify-between items-center gap-2" 
+                        tabindex="0" 
+                        role="button" 
+                        aria-expanded="false" 
+                        id="header2">
+                            <h3>Cortes Infantis</h3>
+                            <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="32px" height="32px" fill="#f5f5f5"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                    </div>
+                    <div class="accordion-content" id="services-2">
+                        <ul class="flex-col gap-6">
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Simples</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte + Barba</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Degradê</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-accordion">
+                    <div 
+                        class="accordion-header w-full flex-row justify-between items-center gap-2" 
+                        tabindex="0" 
+                        role="button" 
+                        aria-expanded="false" 
+                        id="header2">
+                            <h3>Cortes Femininos</h3>
+                            <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="32px" height="32px" fill="#f5f5f5"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                    </div>
+                    <div class="accordion-content" id="services-2">
+                        <ul class="flex-col gap-6">
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Simples</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte + Barba</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Degradê</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-accordion">
+                    <div 
+                        class="accordion-header w-full flex-row justify-between items-center gap-2" 
+                        tabindex="0" 
+                        role="button" 
+                        aria-expanded="false" 
+                        id="header2">
+                            <h3>Barba</h3>
+                            <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="32px" height="32px" fill="#f5f5f5"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                    </div>
+                    <div class="accordion-content" id="services-2">
+                        <ul class="flex-col gap-6">
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Simples</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte + Barba</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Degradê</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-accordion">
+                    <div 
+                        class="accordion-header w-full flex-row justify-between items-center gap-2" 
+                        tabindex="0" 
+                        role="button" 
+                        aria-expanded="false" 
+                        id="header2">
+                            <h3>Rosto e Cuidados Faciais</h3>
+                            <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="32px" height="32px" fill="#f5f5f5"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                    </div>
+                    <div class="accordion-content" id="services-2">
+                        <ul class="flex-col gap-6">
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Simples</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte + Barba</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Degradê</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-accordion">
+                    <div 
+                        class="accordion-header w-full flex-row justify-between items-center gap-2" 
+                        tabindex="0" 
+                        role="button" 
+                        aria-expanded="false" 
+                        id="header2">
+                            <h3>Coloração e Químicas</h3>
+                            <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="32px" height="32px" fill="#f5f5f5"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                    </div>
+                    <div class="accordion-content" id="services-2">
+                        <ul class="flex-col gap-6">
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Simples</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte + Barba</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-container flex-row justify-between items-center gap-4">
+                                    <div class="service-name">
+                                        <h4>Corte Degradê</h4>
+                                        <p>40 minutos</p>
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="service-price">
+                                        <p>12,50€</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="placeSection" class="w-full h-full">
+            <div class="section-header flex-col justify-center items-center gap-3">
+                <h2>Ambiente Acolhedor</h2>
+                <p class="section-desc">Na Dantas Barbershop em Santarém, cada visita é uma experiência. O nosso ambiente masculino foi pensado para ser um verdadeiro refúgio, combinando a tradição da barbearia clássica com um toque de modernidade. Ao entrar, sentirá de imediato uma atmosfera acolhedora e relaxante, longe da confusão do dia a dia. Aqui, o corte de cabelo masculino e a barba são mais do que serviços, são rituais realizados por barbeiros profissionais num espaço masculino onde o conforto e o bom gosto se encontram. Venha desfrutar de um momento só seu na sua barbearia aqui em Santarém!</p>
+            </div>
+            <div class="img-slider w-full">
+                <div class="slides w-full h-full">
+                    <img src="https://plus.unsplash.com/premium_photo-1661542995743-cfdbf376014b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="descrição detalhada da imagem" class="slide active" />
+                    <img src="https://plus.unsplash.com/premium_photo-1683133527929-a171bc55ff55?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="descrição detalhada da imagem" class="slide" />
+                    <img src="https://plus.unsplash.com/premium_photo-1683133536286-c79120a6502f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="descrição detalhada da imagem" class="slide" />
+                    <img src="https://plus.unsplash.com/premium_photo-1683133530586-c30de7aa9124?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="descrição detalhada da imagem" class="slide" />
+                </div>
+                <div class="slider-controller">
+                    <span class="dot active" data-index="0" tabindex="0"></span>
+                    <span class="dot" data-index="1" tabindex="0"></span>
+                    <span class="dot" data-index="2" tabindex="0"></span>
+                    <span class="dot" data-index="3" tabindex="0"></span>
+                </div>
+            </div>
+        </section>
+        <section id="resultSection" class="w-full">
+            <div class="section-header flex-col justify-center items-center gap-3">
+                <h2>Galeria</h2>
+                <p class="section-desc">Aqui, a prova do nosso trabalho está nos resultados. Explore a nossa galeria e veja as transformações incríveis que os nossos barbeiros profissionais criam. De cortes de cabelo masculino a designs de barba impecáveis, cada imagem é um testemunho da satisfação dos nossos clientes e da excelência que define-nos como a sua barbearia de escolha.</p>
+            </div>
+            <div class="result-wrapper">
+                <p>RESULTADOS</p>
+                <div class="result-card" id="card1">
+                    <!-- <img src="" alt="imagem de corte de cabelo"> -->
+                </div>
+                <div class="result-card" id="card2">
+                    <!-- <img src="" alt="imagem de corte de cabelo""> -->
+                </div>
+                <div class="result-card" id="card3">
+                    <!-- <img src="" alt="imagem de corte de cabelo"> -->
+                </div>
+                <div class="result-card" id="card4">
+                    <!-- <img src="" aalt="imagem de corte de cabelo"> -->
+                </div>
+                <div class="result-card" id="card5">
+                    <!-- <img src="" alt="imagem de corte de cabelo"> -->
+                </div>
+                <div class="result-card" id="card6">
+                    <!-- <img src="" alt="imagem de corte de cabelo"> -->
+                </div>
+            </div>
+        </section>
+        <section id="testimonialSection" class="w-full h-full">
+            <h2>O que os nossos clientes têm a<br> dizer sobre nós</h2>
+            <div class="testimonial-wrapper w-full text-left">
+                <div class="testimonial-slider flex-row items-center gap-3">
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Daniel Godinho</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Adoro cortar o cabelo convosco. Sou sempre super bem atendido, com uma simpatia brutal.<br>No que toca à qualidade do serviço, dou 5 estrelas porque não dá para dar mais.<br>Obrigado!</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Eduardo Figueiras</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Primeira vez e o corte é incrível 👍<br> Muito bom atendimento!</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Luis Victor Silva</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Excelente ambiente, todos os barbeiros muito bem educados e prestativos! 😃</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>André Folgosa</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Bom ambiente, atendimento excelente e cortes de excelência. Recomendo a 200%!</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Luís Lancastre</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">100% profissionalismo e os cortes ficam sempre perfeitos. 👌</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Matarrolas</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Barbearia 💈 espetacular. Atendimento 5⭐ e acima de tudo profissionalismo.</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Kamila Assis Dias</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Ótimo atendimento, profissionais impecáveis 👏🏽</p>
+                    </div>
+                </div>
+                <!-- 2nd SLIDER -->
+                <div class="testimonial-slider reverse flex-row items-center gap-3">
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Herica Duarte</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Simpatia e elegância misturada com profissionalismo! É com uma junção das tattoo perfect. Parabéns a equipe desejo-lhe a todos sucesso.</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Pedro Monteiro</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Barbearia com um ambiente excelente, os barbeiros são incríveis e são excelente profissionais, recomendo 100%.</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Daniel Cardoso</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Corte de cabelo e barba top, pessoal 5⭐ ambiente super acolhedor, atenciosos com o pormenor de cada cliente.</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>João Nelson</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Os brabos tem nomes DANTAS BARBER SHOP 🔥🔥🔥</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>João Nuno Ribeiro</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Experiência incrível. Muito aconchegante com boa música. 🎵</p>
+                    </div>
+                    <div class="client-card flex-col gap-4">
+                        <div class="client-info w-full flex-row gap-2 items-center">
+                            <figure class="client-img"></figure>
+                            <div class="client-details">
+                                <p>Sérgio Matias</p>
+                                <img src="./assets/icons/five-stars.png" class="stars-icon" alt="ícone de cinco estrelas">
+                            </div>
+                        </div>
+                        <p class="client-desc">Bom serviço, a um preço justo.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="mapSection" class="w-full h-full">
+            <h2>Estamos à sua espera!</h2>
+            <div class="map-container">
+                <iframe title="Dantas Barbershop Google Maps" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3090.7483164667665!2d-8.690501024234239!3d39.225881471655775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18a55fd659d9d5%3A0xb885dd3c980702f0!2sDantas%20Barber%20shop!5e0!3m2!1sen!2spt!4v1750371398124!5m2!1sen!2spt" width="1400" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="info-box flex-col gap-2 text-left">
+                <p class="info-text">Santarém, R. dos Bombeiros Voluntários 2 R/C, 2000-205</p>
+            </div>
+        </section>
+        <section id="ctaSection" class="w-full flex-col justify-center items-center gap-11">
+            <a href="https://noona.pt/dantasbarbershop/book" class="btn">Agendar Marcação</a>
+            <a href="tel:+351934645482" class="btn">Telefonar para Marcação</a>
+            <img src="./assets/images/bg-pattern.jpg" aria-disabled="true" alt="padrão repetitivo para fundo de imagem">
+        </section>
+        <!-- <section id="timeSection" class="w-full h-screen">
+            <h2>Horário</h2>
+        </section> -->
+        <footer class="w-full h-full text-center">
+            <img src="./assets/icons/dantas-logo.webp" alt="dantas babershop logótipo">
+            <div class="footer-contacts">
+                <a href="https://www.instagram.com/dantasbarbershop10/" target="_blank">Instagram: @dantasbarbershop10</a>
+                <p>Email: contactos@dantasbarbershop.com</p>
+                <p>Tel: (+351) 934 645 482</p>
+            </div>
+            <p class="copy-text">2025 © Todos os direitos reservados, The Dantas Barbershop</p>
+        </footer>
+    </main>
+    <script src="./js/accordion.js"></script>
+    <script src="./utils/animations/indexGsap.js"></script>
+    <script src="./js/imageSlider.js"></script>
+    <script src="./js/infiniteSlider.js"></script>
+</body>
+</html>
