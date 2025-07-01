@@ -318,13 +318,16 @@ body{
 }
 .testimonial-wrapper{
     margin-top: var(--spacing-8);
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 .testimonial-slider{
     scroll-behavior: auto;
     animation: scroll-left 30s linear infinite;
     width: max-content;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .testimonial-slider.reverse{
     margin-top: var(--spacing-3);
@@ -348,12 +351,14 @@ body{
 }
 .client-card{
     flex: 0 0 auto;
+    min-width: 300px;
     width: 424px;
     height: 240px;
     padding: var(--spacing-6);
     background-color: var(--grey-800);
     border: 1px solid var(--core);
     border-radius: var(--radius-md);
+    white-space: wrap;
 }
 .client-img{
     width: 64px;
@@ -429,7 +434,7 @@ body{
         width: 32vw;
         height: 36vw;
     }
-    .client-card{ scale: 0.9; }
+    .client-card{ width: 80vw; }
     .map{ height: 400px; }
 }
 
