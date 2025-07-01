@@ -324,7 +324,7 @@ body{
 .testimonial-slider{
     scroll-behavior: auto;
     animation: scroll-left 30s linear infinite;
-    width: max-content;
+    width: 100%;
     white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
