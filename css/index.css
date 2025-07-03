@@ -125,13 +125,14 @@ body{
     z-index: 2;
 }
 .member-name{
-    font-size: clamp(1.25rem, 6vw, 1.75rem);
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
     font-weight: 700;
     line-height: 1;
 }
 .member-skill{
     font-style: italic;
     font-size: clamp(0.875rem, 6vw ,1rem);
+    line-height: 1.2;
     font-weight: 300;
 }
 .instagram-icon{
@@ -316,42 +317,59 @@ body{
 #testimonialSection{
     background-color: var(--grey-850);
 }
-.testimonial-wrapper{
-    margin-top: var(--spacing-8);
-    overflow-x: hidden;
-    position: relative;
-}
 .testimonial-slider{
-    scroll-behavior: auto;
-    animation: scroll-left 30s linear infinite;
+    position: relative;
+    margin-top: var(--spacing-3);
+}
+.starter{
+    margin-top: var(--spacing-8);
+}
+.testimonial-content{
     width: 100%;
-    white-space: nowrap;
     display: flex;
+    flex-wrap: wrap;
+}
+.testimonial-slider[data-animate=true]{
+    overflow: hidden;
+    -webkit-mask: linear-gradient(
+        90deg,
+        transparent,
+        white 10%,
+        white 90%,
+        transparent);
+    mask: linear-gradient(
+        90deg,
+        transparent,
+        white 10%,
+        white 90%,
+        transparent);
+}
+.testimonial-slider[data-animate=true] .testimonial-content{
+    width: fit-content;
+    animation: scroll
+    var(--animation-duration, 40s)
+    var(--animation-direction, forwards)
+    linear
+    infinite;
     flex-wrap: nowrap;
 }
-.testimonial-slider.reverse{
-    margin-top: var(--spacing-3);
-    animation: scroll-right 30s linear infinite;
+.testimonial-slider[data-direction="right"]{
+    --animation-direction: reverse;
 }
-@keyframes scroll-left{
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+.testimonial-slider[data-duration="fast"]{
+    --animation-duration: 10s;
 }
-@keyframes scroll-right{
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
+.testimonial-slider[data-duration="slow"]{
+    --animation-duration: 60s;
+}
+@keyframes scroll {
+    to{
+        transform: translate(-50%);
+    }
 }
 .client-card{
     flex: 0 0 auto;
-    min-width: 300px;
+    min-width: 320px;
     width: 424px;
     height: 240px;
     padding: var(--spacing-6);
@@ -373,7 +391,6 @@ body{
 .client-desc{
     font-size: 1rem;
 }
-
 /* Map Section 🚧 */
 #mapSection{
     background-color: var(--black);
@@ -433,6 +450,7 @@ body{
     .cta-wrapper, .info-container{ flex-direction: column; }
     .review-container{ display: none; }
     .team-grid{ grid-template-columns: 1fr; }
+    .member-info{ padding: 16px }
     .service-wrapper{ margin-top: 24vw; }
     .service-name{ min-width: 80px; }
     .result-card{
