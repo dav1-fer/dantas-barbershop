@@ -447,6 +447,7 @@ body{
         background-position: center;
     }
     .hero-content{ gap: var(--spacing-5) }
+    .bg-lines{ opacity: 0.3; }
     .cta-wrapper, .info-container{ flex-direction: column; }
     .review-container{ display: none; }
     .team-grid{ grid-template-columns: 1fr; }
